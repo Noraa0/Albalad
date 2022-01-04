@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C0347BD672CCC1802B43660 /* Pods_Albalad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A83333F1332E27C33D79BF /* Pods_Albalad.framework */; };
 		8823A0082780B978003F7B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823A0072780B978003F7B0E /* AppDelegate.swift */; };
 		8823A00A2780B978003F7B0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823A0092780B978003F7B0E /* SceneDelegate.swift */; };
 		8823A00C2780B978003F7B0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823A00B2780B978003F7B0E /* ViewController.swift */; };
@@ -15,9 +16,21 @@
 		8823A0142780B981003F7B0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8823A0122780B981003F7B0E /* LaunchScreen.storyboard */; };
 		8823A0382780BA0E003F7B0E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823A0372780BA0E003F7B0E /* LoginVC.swift */; };
 		8823A03A2780BA68003F7B0E /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8823A0392780BA68003F7B0E /* SignUpVC.swift */; };
-		8823A03D2780BF17003F7B0E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8823A03C2780BF17003F7B0E /* FirebaseAuth */; };
-		8823A03F2780BF17003F7B0E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8823A03E2780BF17003F7B0E /* FirebaseFirestore */; };
-		8823A0412780BF17003F7B0E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8823A0402780BF17003F7B0E /* FirebaseStorage */; };
+		8826B0F127822FD9000E450D /* ExplorCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826B0F027822FD9000E450D /* ExplorCVCell.swift */; };
+		8826B0F327825C29000E450D /* ExplorAlbaladVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826B0F227825C29000E450D /* ExplorAlbaladVC.swift */; };
+		8826B0F52782BBDE000E450D /* InvestmentsAlbaladVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826B0F42782BBDE000E450D /* InvestmentsAlbaladVC.swift */; };
+		8826B0F72782CF4B000E450D /* ExplorAlbaladCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826B0F62782CF4B000E450D /* ExplorAlbaladCell.swift */; };
+		8826B0F92782D04F000E450D /* InvestAlbaladCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826B0F82782D04F000E450D /* InvestAlbaladCell.swift */; };
+		8826B0FB2782D64F000E450D /* InvestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826B0FA2782D64F000E450D /* InvestClass.swift */; };
+		8826B0FD2782EBC8000E450D /* EventAlbaladVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826B0FC2782EBC8000E450D /* EventAlbaladVC.swift */; };
+		8826B0FF2782F020000E450D /* EventAlbaladCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826B0FE2782F020000E450D /* EventAlbaladCell.swift */; };
+		8826B1052783955D000E450D /* HotelsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826B1042783955D000E450D /* HotelsVC.swift */; };
+		8826B10827839770000E450D /* HotelAlbaladCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826B10727839770000E450D /* HotelAlbaladCell.swift */; };
+		8826B10A27839944000E450D /* MuseumsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826B10927839944000E450D /* MuseumsVC.swift */; };
+		8826B10C278399E2000E450D /* MuseumAlbaladCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826B10B278399E2000E450D /* MuseumAlbaladCell.swift */; };
+		8826B10E27842093000E450D /* AlbaladMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8826B10D27842093000E450D /* AlbaladMap.swift */; };
+		88DC0346278191F200D158AD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88DC0345278191F200D158AD /* GoogleService-Info.plist */; };
+		88DC03482781BF0000D158AD /* MainPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88DC03472781BEFF00D158AD /* MainPageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +63,24 @@
 		8823A0242780B982003F7B0E /* AlbaladUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlbaladUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8823A0372780BA0E003F7B0E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		8823A0392780BA68003F7B0E /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		8826B0F027822FD9000E450D /* ExplorCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorCVCell.swift; sourceTree = "<group>"; };
+		8826B0F227825C29000E450D /* ExplorAlbaladVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorAlbaladVC.swift; sourceTree = "<group>"; };
+		8826B0F42782BBDE000E450D /* InvestmentsAlbaladVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentsAlbaladVC.swift; sourceTree = "<group>"; };
+		8826B0F62782CF4B000E450D /* ExplorAlbaladCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorAlbaladCell.swift; sourceTree = "<group>"; };
+		8826B0F82782D04F000E450D /* InvestAlbaladCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestAlbaladCell.swift; sourceTree = "<group>"; };
+		8826B0FA2782D64F000E450D /* InvestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestClass.swift; sourceTree = "<group>"; };
+		8826B0FC2782EBC8000E450D /* EventAlbaladVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAlbaladVC.swift; sourceTree = "<group>"; };
+		8826B0FE2782F020000E450D /* EventAlbaladCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAlbaladCell.swift; sourceTree = "<group>"; };
+		8826B1042783955D000E450D /* HotelsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsVC.swift; sourceTree = "<group>"; };
+		8826B10727839770000E450D /* HotelAlbaladCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelAlbaladCell.swift; sourceTree = "<group>"; };
+		8826B10927839944000E450D /* MuseumsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumsVC.swift; sourceTree = "<group>"; };
+		8826B10B278399E2000E450D /* MuseumAlbaladCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumAlbaladCell.swift; sourceTree = "<group>"; };
+		8826B10D27842093000E450D /* AlbaladMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaladMap.swift; sourceTree = "<group>"; };
+		88DC0345278191F200D158AD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		88DC03472781BEFF00D158AD /* MainPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageVC.swift; sourceTree = "<group>"; };
+		9AA33C930D1AE97B98026835 /* Pods-Albalad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Albalad.debug.xcconfig"; path = "Target Support Files/Pods-Albalad/Pods-Albalad.debug.xcconfig"; sourceTree = "<group>"; };
+		F4A83333F1332E27C33D79BF /* Pods_Albalad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Albalad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8837C598732FD5653B3D6D9 /* Pods-Albalad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Albalad.release.xcconfig"; path = "Target Support Files/Pods-Albalad/Pods-Albalad.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8823A03D2780BF17003F7B0E /* FirebaseAuth in Frameworks */,
-				8823A03F2780BF17003F7B0E /* FirebaseFirestore in Frameworks */,
-				8823A0412780BF17003F7B0E /* FirebaseStorage in Frameworks */,
+				0C0347BD672CCC1802B43660 /* Pods_Albalad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,11 +109,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AD908A7E69134B67D14EDE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4A83333F1332E27C33D79BF /* Pods_Albalad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		850EA4AF820D25F02EC669BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AA33C930D1AE97B98026835 /* Pods-Albalad.debug.xcconfig */,
+				F8837C598732FD5653B3D6D9 /* Pods-Albalad.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		88239FFB2780B978003F7B0E = {
 			isa = PBXGroup;
 			children = (
 				8823A0062780B978003F7B0E /* Albalad */,
 				8823A0052780B978003F7B0E /* Products */,
+				850EA4AF820D25F02EC669BB /* Pods */,
+				4AD908A7E69134B67D14EDE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,17 +149,72 @@
 		8823A0062780B978003F7B0E /* Albalad */ = {
 			isa = PBXGroup;
 			children = (
-				8823A0072780B978003F7B0E /* AppDelegate.swift */,
-				8823A0092780B978003F7B0E /* SceneDelegate.swift */,
-				8823A0372780BA0E003F7B0E /* LoginVC.swift */,
-				8823A0392780BA68003F7B0E /* SignUpVC.swift */,
-				8823A00B2780B978003F7B0E /* ViewController.swift */,
-				8823A00D2780B978003F7B0E /* Main.storyboard */,
-				8823A0102780B981003F7B0E /* Assets.xcassets */,
-				8823A0122780B981003F7B0E /* LaunchScreen.storyboard */,
+				8826B10627839570000E450D /* BuildApp */,
+				8826B10027834393000E450D /* Cells */,
+				8826B1012783932E000E450D /* Model */,
+				8826B1022783934B000E450D /* View */,
+				8826B10327839373000E450D /* Controller */,
+				8826B0FA2782D64F000E450D /* InvestClass.swift */,
+				88DC0345278191F200D158AD /* GoogleService-Info.plist */,
 				8823A0152780B981003F7B0E /* Info.plist */,
 			);
 			path = Albalad;
+			sourceTree = "<group>";
+		};
+		8826B10027834393000E450D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8826B0F62782CF4B000E450D /* ExplorAlbaladCell.swift */,
+				8826B0F027822FD9000E450D /* ExplorCVCell.swift */,
+				8826B0F82782D04F000E450D /* InvestAlbaladCell.swift */,
+				8826B0FE2782F020000E450D /* EventAlbaladCell.swift */,
+				8826B10727839770000E450D /* HotelAlbaladCell.swift */,
+				8826B10B278399E2000E450D /* MuseumAlbaladCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8826B1012783932E000E450D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8823A0102780B981003F7B0E /* Assets.xcassets */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8826B1022783934B000E450D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8823A00D2780B978003F7B0E /* Main.storyboard */,
+				8823A0122780B981003F7B0E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8826B10327839373000E450D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8823A00B2780B978003F7B0E /* ViewController.swift */,
+				88DC03472781BEFF00D158AD /* MainPageVC.swift */,
+				8823A0392780BA68003F7B0E /* SignUpVC.swift */,
+				8823A0372780BA0E003F7B0E /* LoginVC.swift */,
+				8826B0F227825C29000E450D /* ExplorAlbaladVC.swift */,
+				8826B0F42782BBDE000E450D /* InvestmentsAlbaladVC.swift */,
+				8826B0FC2782EBC8000E450D /* EventAlbaladVC.swift */,
+				8826B1042783955D000E450D /* HotelsVC.swift */,
+				8826B10927839944000E450D /* MuseumsVC.swift */,
+				8826B10D27842093000E450D /* AlbaladMap.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8826B10627839570000E450D /* BuildApp */ = {
+			isa = PBXGroup;
+			children = (
+				8823A0072780B978003F7B0E /* AppDelegate.swift */,
+				8823A0092780B978003F7B0E /* SceneDelegate.swift */,
+			);
+			path = BuildApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,20 +224,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8823A02E2780B982003F7B0E /* Build configuration list for PBXNativeTarget "Albalad" */;
 			buildPhases = (
+				C989001391391BD35EE3E65E /* [CP] Check Pods Manifest.lock */,
 				8823A0002780B978003F7B0E /* Sources */,
 				8823A0012780B978003F7B0E /* Frameworks */,
 				8823A0022780B978003F7B0E /* Resources */,
+				C16ADFC1FE6A393DCF8C296F /* [CP] Copy Pods Resources */,
+				64D625EFCB9263F9A0D4A6CC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Albalad;
-			packageProductDependencies = (
-				8823A03C2780BF17003F7B0E /* FirebaseAuth */,
-				8823A03E2780BF17003F7B0E /* FirebaseFirestore */,
-				8823A0402780BF17003F7B0E /* FirebaseStorage */,
-			);
 			productName = Albalad;
 			productReference = 8823A0042780B978003F7B0E /* Albalad.app */;
 			productType = "com.apple.product-type.application";
@@ -207,9 +308,6 @@
 				Base,
 			);
 			mainGroup = 88239FFB2780B978003F7B0E;
-			packageReferences = (
-				8823A03B2780BF17003F7B0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
 			productRefGroup = 8823A0052780B978003F7B0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -227,6 +325,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8823A0142780B981003F7B0E /* LaunchScreen.storyboard in Resources */,
+				88DC0346278191F200D158AD /* GoogleService-Info.plist in Resources */,
 				8823A0112780B981003F7B0E /* Assets.xcassets in Resources */,
 				8823A00F2780B978003F7B0E /* Main.storyboard in Resources */,
 			);
@@ -248,16 +347,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64D625EFCB9263F9A0D4A6CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Albalad/Pods-Albalad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Albalad/Pods-Albalad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Albalad/Pods-Albalad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C16ADFC1FE6A393DCF8C296F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Albalad/Pods-Albalad-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Albalad/Pods-Albalad-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Albalad/Pods-Albalad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C989001391391BD35EE3E65E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Albalad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8823A0002780B978003F7B0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8826B0FD2782EBC8000E450D /* EventAlbaladVC.swift in Sources */,
+				8826B0F127822FD9000E450D /* ExplorCVCell.swift in Sources */,
+				8826B0FF2782F020000E450D /* EventAlbaladCell.swift in Sources */,
+				8826B1052783955D000E450D /* HotelsVC.swift in Sources */,
+				88DC03482781BF0000D158AD /* MainPageVC.swift in Sources */,
 				8823A00C2780B978003F7B0E /* ViewController.swift in Sources */,
+				8826B0FB2782D64F000E450D /* InvestClass.swift in Sources */,
+				8826B0F52782BBDE000E450D /* InvestmentsAlbaladVC.swift in Sources */,
 				8823A0082780B978003F7B0E /* AppDelegate.swift in Sources */,
+				8826B10E27842093000E450D /* AlbaladMap.swift in Sources */,
+				8826B0F327825C29000E450D /* ExplorAlbaladVC.swift in Sources */,
+				8826B10A27839944000E450D /* MuseumsVC.swift in Sources */,
 				8823A0382780BA0E003F7B0E /* LoginVC.swift in Sources */,
 				8823A03A2780BA68003F7B0E /* SignUpVC.swift in Sources */,
 				8823A00A2780B978003F7B0E /* SceneDelegate.swift in Sources */,
+				8826B0F72782CF4B000E450D /* ExplorAlbaladCell.swift in Sources */,
+				8826B10C278399E2000E450D /* MuseumAlbaladCell.swift in Sources */,
+				8826B10827839770000E450D /* HotelAlbaladCell.swift in Sources */,
+				8826B0F92782D04F000E450D /* InvestAlbaladCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +600,7 @@
 		};
 		8823A02F2780B982003F7B0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA33C930D1AE97B98026835 /* Pods-Albalad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,6 +627,7 @@
 		};
 		8823A0302780B982003F7B0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8837C598732FD5653B3D6D9 /* Pods-Albalad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -610,35 +784,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		8823A03B2780BF17003F7B0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		8823A03C2780BF17003F7B0E /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8823A03B2780BF17003F7B0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		8823A03E2780BF17003F7B0E /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8823A03B2780BF17003F7B0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		8823A0402780BF17003F7B0E /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8823A03B2780BF17003F7B0E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 88239FFC2780B978003F7B0E /* Project object */;
 }
