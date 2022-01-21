@@ -7,8 +7,10 @@ target 'Albalad' do
 
   # Pods for Albalad
 pod 'Firebase/Auth'
+pod 'Firebase/Core'
 pod 'Firebase/Firestore'
 pod 'Firebase/Storage'
+
 
   target 'AlbaladTests' do
     inherit! :search_paths
@@ -18,5 +20,4 @@ pod 'Firebase/Storage'
   target 'AlbaladUITests' do
     # Pods for testing
   end
-
 end

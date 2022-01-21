@@ -8,42 +8,40 @@
 import UIKit
 
 class ViewController: UITabBarController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-       // create instance of view controllers
         let vc = MainPageVC()
-        let vc2 = SignUpVC()
-        let vc3 = LoginVC()
+        let vc2 = ReservationVC()
+        let vc3 = ProfileVC()
+        let vc4 = MapViewController()
         
         
-       //set title
-        vc.title = "Home"
-        vc2.title = "Fav"
-        vc3.title = "Fav"
+        vc.title = "الرئيسية"
+        vc2.title = "حجوزاتي"
+        vc3.title = "الملف الشخصي"
+        vc4.title = "الخريطة"
         
-       // assign view controllers of tab bar
-        self.setViewControllers([vc,vc2,vc3], animated: false)
         
+        self.setViewControllers([vc3,vc2,vc4,vc], animated: false)
         
         guard let items = self.tabBar.items else { return }
-    
-                
         
-        let images = ["house","star","star"]
         
-        for x in 0...2 {
+        
+        let images = ["person.circle","ticket","map","house"]
+        
+        for x in 0...3 {
             items[x].image = UIImage(systemName: images[x])
         }
-      // changing tint color
-        self.tabBar.tintColor = .black
+
+        self.tabBar.tintColor = #colorLiteral(red: 0.2183634341, green: 0.4241205454, blue: 0.4433012903, alpha: 0.5)
         self.tabBar.isTranslucent = false
-        self.tabBar.backgroundColor = .lightGray
+        self.tabBar.backgroundColor = .white
+        self.selectedIndex = 3
     }
-
-
+    
     
 }
 

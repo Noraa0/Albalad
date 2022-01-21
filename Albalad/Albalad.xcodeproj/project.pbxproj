@@ -21,23 +21,34 @@
 		880E53EE2786165D00EFF6E4 /* MainPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E53ED2786165D00EFF6E4 /* MainPageVC.swift */; };
 		880E53F02786167800EFF6E4 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E53EF2786167800EFF6E4 /* SignUpVC.swift */; };
 		880E53F22786169D00EFF6E4 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E53F12786169D00EFF6E4 /* LoginVC.swift */; };
-		880E53F4278616BE00EFF6E4 /* ExplorAlbaladVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E53F3278616BE00EFF6E4 /* ExplorAlbaladVC.swift */; };
-		880E53F6278616D900EFF6E4 /* InvestmentsAlbaladVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E53F5278616D900EFF6E4 /* InvestmentsAlbaladVC.swift */; };
-		880E53F8278616FF00EFF6E4 /* EventAlbaladVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E53F7278616FF00EFF6E4 /* EventAlbaladVC.swift */; };
 		880E53FA2786171500EFF6E4 /* HotelsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E53F92786171500EFF6E4 /* HotelsVC.swift */; };
 		880E53FC2786173800EFF6E4 /* MuseumsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E53FB2786173800EFF6E4 /* MuseumsVC.swift */; };
-		880E53FE2786176600EFF6E4 /* AlbaladMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E53FD2786176600EFF6E4 /* AlbaladMapVC.swift */; };
-		880E5400278617A000EFF6E4 /* HotelDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E53FF278617A000EFF6E4 /* HotelDetailsVC.swift */; };
 		880E5402278617B900EFF6E4 /* MuseumDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E5401278617B900EFF6E4 /* MuseumDetailsVC.swift */; };
 		880E5404278617D000EFF6E4 /* PaymentAlbaladVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E5403278617CF00EFF6E4 /* PaymentAlbaladVC.swift */; };
-		880E540F27861BC700EFF6E4 /* ExplorAlbaladCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E540E27861BC700EFF6E4 /* ExplorAlbaladCell.swift */; };
 		880E541127861BED00EFF6E4 /* ExplorCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E541027861BED00EFF6E4 /* ExplorCVCell.swift */; };
-		880E541327861C5F00EFF6E4 /* InvestAlbaladCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E541227861C5F00EFF6E4 /* InvestAlbaladCell.swift */; };
-		880E541527861C8D00EFF6E4 /* EventAlbaladCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E541427861C8D00EFF6E4 /* EventAlbaladCell.swift */; };
 		880E541727861CD100EFF6E4 /* HotelAlbaladCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E541627861CD100EFF6E4 /* HotelAlbaladCell.swift */; };
 		880E541927861CFE00EFF6E4 /* MuseumAlbaladCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E541827861CFE00EFF6E4 /* MuseumAlbaladCell.swift */; };
 		880E541B278622EC00EFF6E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 880E541A278622EC00EFF6E4 /* GoogleService-Info.plist */; };
-		880E541D278623D000EFF6E4 /* InvestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E541C278623D000EFF6E4 /* InvestClass.swift */; };
+		880E541D278623D000EFF6E4 /* FirebaseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880E541C278623D000EFF6E4 /* FirebaseModels.swift */; };
+		881351322799FD48007BC30E /* MuseumReservationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881351312799FD48007BC30E /* MuseumReservationVC.swift */; };
+		883446882799D137005BADD4 /* EventReservationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883446872799D137005BADD4 /* EventReservationVC.swift */; };
+		8855248B27949A1D00A41B75 /* AboutAlbaladVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8855248A27949A1D00A41B75 /* AboutAlbaladVC.swift */; };
+		8855248D2794BA7E00A41B75 /* LandmarkAlbaladVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8855248C2794BA7E00A41B75 /* LandmarkAlbaladVC.swift */; };
+		8855248F2794BB0300A41B75 /* LandmarkAlbaladCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8855248E2794BB0300A41B75 /* LandmarkAlbaladCell.swift */; };
+		885605512796E3AF000692E4 /* ArrayModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885605502796E3AF000692E4 /* ArrayModels.swift */; };
+		887E450A27915976007258D1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E450927915976007258D1 /* MapViewController.swift */; };
+		887E454A2791CAB0007258D1 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E45492791CAB0007258D1 /* LaunchScreen.swift */; };
+		888819352795AE7200A9E6FA /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888819342795AE7100A9E6FA /* ProfileVC.swift */; };
+		888819372795AF4700A9E6FA /* ReservationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888819362795AF4700A9E6FA /* ReservationVC.swift */; };
+		888F195B2797FF9900755961 /* EventsAbaladCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888F195A2797FF9900755961 /* EventsAbaladCV.swift */; };
+		888F195D2798007300755961 /* EventsAlbaladCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888F195C2798007300755961 /* EventsAlbaladCell.swift */; };
+		88981377279953DF00E77699 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88981376279953DF00E77699 /* PinterestLayout.swift */; };
+		88C32A69279838D20092B10D /* HotelReservationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C32A68279838D20092B10D /* HotelReservationVC.swift */; };
+		88C752992795F4C70025E271 /* ToursVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C752982795F4C70025E271 /* ToursVC.swift */; };
+		88C7529B2795F68F0025E271 /* ToursCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C7529A2795F68F0025E271 /* ToursCell.swift */; };
+		88CB61F42786EECF00D03F30 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CB61F32786EECF00D03F30 /* ForgotPasswordVC.swift */; };
+		88F48B71279945CA00C231DE /* PhotoGalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F48B70279945CA00C231DE /* PhotoGalleryVC.swift */; };
+		88F48B73279946F300C231DE /* PhotoGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F48B72279946F300C231DE /* PhotoGalleryCell.swift */; };
 		9FD3432410BEEC6D0206EEC8 /* Pods_Albalad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC1689F855AC89CA4E21C231 /* Pods_Albalad.framework */; };
 /* End PBXBuildFile section */
 
@@ -79,23 +90,34 @@
 		880E53ED2786165D00EFF6E4 /* MainPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageVC.swift; sourceTree = "<group>"; };
 		880E53EF2786167800EFF6E4 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		880E53F12786169D00EFF6E4 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
-		880E53F3278616BE00EFF6E4 /* ExplorAlbaladVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorAlbaladVC.swift; sourceTree = "<group>"; };
-		880E53F5278616D900EFF6E4 /* InvestmentsAlbaladVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestmentsAlbaladVC.swift; sourceTree = "<group>"; };
-		880E53F7278616FF00EFF6E4 /* EventAlbaladVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAlbaladVC.swift; sourceTree = "<group>"; };
 		880E53F92786171500EFF6E4 /* HotelsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsVC.swift; sourceTree = "<group>"; };
 		880E53FB2786173800EFF6E4 /* MuseumsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumsVC.swift; sourceTree = "<group>"; };
-		880E53FD2786176600EFF6E4 /* AlbaladMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbaladMapVC.swift; sourceTree = "<group>"; };
-		880E53FF278617A000EFF6E4 /* HotelDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetailsVC.swift; sourceTree = "<group>"; };
 		880E5401278617B900EFF6E4 /* MuseumDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumDetailsVC.swift; sourceTree = "<group>"; };
 		880E5403278617CF00EFF6E4 /* PaymentAlbaladVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentAlbaladVC.swift; sourceTree = "<group>"; };
-		880E540E27861BC700EFF6E4 /* ExplorAlbaladCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorAlbaladCell.swift; sourceTree = "<group>"; };
 		880E541027861BED00EFF6E4 /* ExplorCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorCVCell.swift; sourceTree = "<group>"; };
-		880E541227861C5F00EFF6E4 /* InvestAlbaladCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestAlbaladCell.swift; sourceTree = "<group>"; };
-		880E541427861C8D00EFF6E4 /* EventAlbaladCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventAlbaladCell.swift; sourceTree = "<group>"; };
 		880E541627861CD100EFF6E4 /* HotelAlbaladCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelAlbaladCell.swift; sourceTree = "<group>"; };
 		880E541827861CFE00EFF6E4 /* MuseumAlbaladCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumAlbaladCell.swift; sourceTree = "<group>"; };
 		880E541A278622EC00EFF6E4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		880E541C278623D000EFF6E4 /* InvestClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestClass.swift; sourceTree = "<group>"; };
+		880E541C278623D000EFF6E4 /* FirebaseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseModels.swift; sourceTree = "<group>"; };
+		881351312799FD48007BC30E /* MuseumReservationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumReservationVC.swift; sourceTree = "<group>"; };
+		883446872799D137005BADD4 /* EventReservationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventReservationVC.swift; sourceTree = "<group>"; };
+		8855248A27949A1D00A41B75 /* AboutAlbaladVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAlbaladVC.swift; sourceTree = "<group>"; };
+		8855248C2794BA7E00A41B75 /* LandmarkAlbaladVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkAlbaladVC.swift; sourceTree = "<group>"; };
+		8855248E2794BB0300A41B75 /* LandmarkAlbaladCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkAlbaladCell.swift; sourceTree = "<group>"; };
+		885605502796E3AF000692E4 /* ArrayModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayModels.swift; sourceTree = "<group>"; };
+		887E450927915976007258D1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		887E45492791CAB0007258D1 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		888819342795AE7100A9E6FA /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		888819362795AF4700A9E6FA /* ReservationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationVC.swift; sourceTree = "<group>"; };
+		888F195A2797FF9900755961 /* EventsAbaladCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsAbaladCV.swift; sourceTree = "<group>"; };
+		888F195C2798007300755961 /* EventsAlbaladCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsAlbaladCell.swift; sourceTree = "<group>"; };
+		88981376279953DF00E77699 /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		88C32A68279838D20092B10D /* HotelReservationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelReservationVC.swift; sourceTree = "<group>"; };
+		88C752982795F4C70025E271 /* ToursVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToursVC.swift; sourceTree = "<group>"; };
+		88C7529A2795F68F0025E271 /* ToursCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToursCell.swift; sourceTree = "<group>"; };
+		88CB61F32786EECF00D03F30 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		88F48B70279945CA00C231DE /* PhotoGalleryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryVC.swift; sourceTree = "<group>"; };
+		88F48B72279946F300C231DE /* PhotoGalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryCell.swift; sourceTree = "<group>"; };
 		8E6DE418886A0E28DB0CD318 /* Pods-Albalad-AlbaladUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Albalad-AlbaladUITests.debug.xcconfig"; path = "Target Support Files/Pods-Albalad-AlbaladUITests/Pods-Albalad-AlbaladUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		AC1689F855AC89CA4E21C231 /* Pods_Albalad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Albalad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDB3EF409A54B467AB9CAB7C /* Pods_Albalad_AlbaladUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Albalad_AlbaladUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,14 +178,13 @@
 		880E53BC2786161D00EFF6E4 /* Albalad */ = {
 			isa = PBXGroup;
 			children = (
-				880E540A27861B3300EFF6E4 /* BuildApp */,
-				880E540D27861B9900EFF6E4 /* Cells */,
 				880E540927861AEB00EFF6E4 /* Model */,
 				880E540827861ADE00EFF6E4 /* View */,
 				880E5405278617EC00EFF6E4 /* Controller */,
 				880E53CB2786162900EFF6E4 /* Info.plist */,
 				880E541A278622EC00EFF6E4 /* GoogleService-Info.plist */,
-				880E541C278623D000EFF6E4 /* InvestClass.swift */,
+				880E53BD2786161D00EFF6E4 /* AppDelegate.swift */,
+				880E53BF2786161D00EFF6E4 /* SceneDelegate.swift */,
 			);
 			path = Albalad;
 			sourceTree = "<group>";
@@ -190,17 +211,31 @@
 			children = (
 				880E53C12786161D00EFF6E4 /* ViewController.swift */,
 				880E53ED2786165D00EFF6E4 /* MainPageVC.swift */,
+				880E541027861BED00EFF6E4 /* ExplorCVCell.swift */,
 				880E53EF2786167800EFF6E4 /* SignUpVC.swift */,
 				880E53F12786169D00EFF6E4 /* LoginVC.swift */,
-				880E53F3278616BE00EFF6E4 /* ExplorAlbaladVC.swift */,
-				880E53F5278616D900EFF6E4 /* InvestmentsAlbaladVC.swift */,
-				880E53F7278616FF00EFF6E4 /* EventAlbaladVC.swift */,
-				880E53F92786171500EFF6E4 /* HotelsVC.swift */,
+				88CB61F32786EECF00D03F30 /* ForgotPasswordVC.swift */,
+				888819342795AE7100A9E6FA /* ProfileVC.swift */,
+				8855248A27949A1D00A41B75 /* AboutAlbaladVC.swift */,
+				8855248C2794BA7E00A41B75 /* LandmarkAlbaladVC.swift */,
+				8855248E2794BB0300A41B75 /* LandmarkAlbaladCell.swift */,
 				880E53FB2786173800EFF6E4 /* MuseumsVC.swift */,
-				880E53FD2786176600EFF6E4 /* AlbaladMapVC.swift */,
-				880E53FF278617A000EFF6E4 /* HotelDetailsVC.swift */,
 				880E5401278617B900EFF6E4 /* MuseumDetailsVC.swift */,
+				880E541827861CFE00EFF6E4 /* MuseumAlbaladCell.swift */,
+				881351312799FD48007BC30E /* MuseumReservationVC.swift */,
+				88F48B70279945CA00C231DE /* PhotoGalleryVC.swift */,
+				88F48B72279946F300C231DE /* PhotoGalleryCell.swift */,
+				880E53F92786171500EFF6E4 /* HotelsVC.swift */,
+				880E541627861CD100EFF6E4 /* HotelAlbaladCell.swift */,
+				88C32A68279838D20092B10D /* HotelReservationVC.swift */,
+				888F195A2797FF9900755961 /* EventsAbaladCV.swift */,
+				888F195C2798007300755961 /* EventsAlbaladCell.swift */,
+				883446872799D137005BADD4 /* EventReservationVC.swift */,
+				888819362795AF4700A9E6FA /* ReservationVC.swift */,
 				880E5403278617CF00EFF6E4 /* PaymentAlbaladVC.swift */,
+				88C752982795F4C70025E271 /* ToursVC.swift */,
+				88C7529A2795F68F0025E271 /* ToursCell.swift */,
+				887E450927915976007258D1 /* MapViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -210,6 +245,8 @@
 			children = (
 				880E53C32786161D00EFF6E4 /* Main.storyboard */,
 				880E53C82786162900EFF6E4 /* LaunchScreen.storyboard */,
+				887E45492791CAB0007258D1 /* LaunchScreen.swift */,
+				880E53C62786162900EFF6E4 /* Assets.xcassets */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -217,31 +254,11 @@
 		880E540927861AEB00EFF6E4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				880E53C62786162900EFF6E4 /* Assets.xcassets */,
+				880E541C278623D000EFF6E4 /* FirebaseModels.swift */,
+				885605502796E3AF000692E4 /* ArrayModels.swift */,
+				88981376279953DF00E77699 /* PinterestLayout.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		880E540A27861B3300EFF6E4 /* BuildApp */ = {
-			isa = PBXGroup;
-			children = (
-				880E53BD2786161D00EFF6E4 /* AppDelegate.swift */,
-				880E53BF2786161D00EFF6E4 /* SceneDelegate.swift */,
-			);
-			path = BuildApp;
-			sourceTree = "<group>";
-		};
-		880E540D27861B9900EFF6E4 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				880E540E27861BC700EFF6E4 /* ExplorAlbaladCell.swift */,
-				880E541027861BED00EFF6E4 /* ExplorCVCell.swift */,
-				880E541227861C5F00EFF6E4 /* InvestAlbaladCell.swift */,
-				880E541427861C8D00EFF6E4 /* EventAlbaladCell.swift */,
-				880E541627861CD100EFF6E4 /* HotelAlbaladCell.swift */,
-				880E541827861CFE00EFF6E4 /* MuseumAlbaladCell.swift */,
-			);
-			path = Cells;
 			sourceTree = "<group>";
 		};
 		9EF46AD851F8364839E60544 /* Frameworks */ = {
@@ -264,7 +281,6 @@
 				58595E9F2B075DDA0A5FADD2 /* Pods-AlbaladTests.debug.xcconfig */,
 				CFB4B68D5DEC78F84EC09B57 /* Pods-AlbaladTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -508,28 +524,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880E541527861C8D00EFF6E4 /* EventAlbaladCell.swift in Sources */,
-				880E541D278623D000EFF6E4 /* InvestClass.swift in Sources */,
+				883446882799D137005BADD4 /* EventReservationVC.swift in Sources */,
+				88C32A69279838D20092B10D /* HotelReservationVC.swift in Sources */,
+				880E541D278623D000EFF6E4 /* FirebaseModels.swift in Sources */,
+				8855248B27949A1D00A41B75 /* AboutAlbaladVC.swift in Sources */,
+				888819352795AE7200A9E6FA /* ProfileVC.swift in Sources */,
+				888F195B2797FF9900755961 /* EventsAbaladCV.swift in Sources */,
+				888F195D2798007300755961 /* EventsAlbaladCell.swift in Sources */,
+				887E454A2791CAB0007258D1 /* LaunchScreen.swift in Sources */,
+				881351322799FD48007BC30E /* MuseumReservationVC.swift in Sources */,
+				88C7529B2795F68F0025E271 /* ToursCell.swift in Sources */,
 				880E53C22786161D00EFF6E4 /* ViewController.swift in Sources */,
 				880E53BE2786161D00EFF6E4 /* AppDelegate.swift in Sources */,
-				880E53F4278616BE00EFF6E4 /* ExplorAlbaladVC.swift in Sources */,
 				880E5402278617B900EFF6E4 /* MuseumDetailsVC.swift in Sources */,
+				88CB61F42786EECF00D03F30 /* ForgotPasswordVC.swift in Sources */,
+				88981377279953DF00E77699 /* PinterestLayout.swift in Sources */,
+				88F48B71279945CA00C231DE /* PhotoGalleryVC.swift in Sources */,
 				880E53FA2786171500EFF6E4 /* HotelsVC.swift in Sources */,
-				880E5400278617A000EFF6E4 /* HotelDetailsVC.swift in Sources */,
+				88F48B73279946F300C231DE /* PhotoGalleryCell.swift in Sources */,
+				8855248F2794BB0300A41B75 /* LandmarkAlbaladCell.swift in Sources */,
 				880E541727861CD100EFF6E4 /* HotelAlbaladCell.swift in Sources */,
 				880E541127861BED00EFF6E4 /* ExplorCVCell.swift in Sources */,
 				880E53F22786169D00EFF6E4 /* LoginVC.swift in Sources */,
-				880E540F27861BC700EFF6E4 /* ExplorAlbaladCell.swift in Sources */,
 				880E541927861CFE00EFF6E4 /* MuseumAlbaladCell.swift in Sources */,
+				88C752992795F4C70025E271 /* ToursVC.swift in Sources */,
 				880E53EE2786165D00EFF6E4 /* MainPageVC.swift in Sources */,
+				888819372795AF4700A9E6FA /* ReservationVC.swift in Sources */,
+				885605512796E3AF000692E4 /* ArrayModels.swift in Sources */,
 				880E53FC2786173800EFF6E4 /* MuseumsVC.swift in Sources */,
 				880E53F02786167800EFF6E4 /* SignUpVC.swift in Sources */,
 				880E53C02786161D00EFF6E4 /* SceneDelegate.swift in Sources */,
-				880E541327861C5F00EFF6E4 /* InvestAlbaladCell.swift in Sources */,
-				880E53FE2786176600EFF6E4 /* AlbaladMapVC.swift in Sources */,
-				880E53F8278616FF00EFF6E4 /* EventAlbaladVC.swift in Sources */,
+				8855248D2794BA7E00A41B75 /* LandmarkAlbaladVC.swift in Sources */,
 				880E5404278617D000EFF6E4 /* PaymentAlbaladVC.swift in Sources */,
-				880E53F6278616D900EFF6E4 /* InvestmentsAlbaladVC.swift in Sources */,
+				887E450A27915976007258D1 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,10 +736,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S975N3SS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Albalad/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -736,10 +765,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4S975N3SS6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Albalad/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -8,40 +8,61 @@
 import UIKit
 
 class MuseumDetailsVC: UIViewController {
-
+    
+    var vc = MuseumsVC()
+    var museumNameSelected : Int?
+    
+    
+    
     var nameView : UIView = {
-        $0.backgroundColor = .lightGray
+        $0.backgroundColor = UIColor(named: "Color")
         $0.layer.cornerRadius = 15
         $0.translatesAutoresizingMaskIntoConstraints = false
-    return $0
+        return $0
     }(UIView())
     
     
     var museumName : UILabel = {
         $0.textColor = .black
-        $0.text = "اسم المتحف"
         $0.translatesAutoresizingMaskIntoConstraints = false
-    return $0
+        return $0
     }(UILabel())
     
     
     var descriptionView : UIView = {
-        $0.backgroundColor = .lightGray
+        $0.backgroundColor = UIColor(named: "Color")
         $0.layer.cornerRadius = 15
         $0.translatesAutoresizingMaskIntoConstraints = false
-    return $0
+        return $0
     }(UIView())
     
-    var museumDescription : UILabel = {
-        $0.textColor = .black
-        $0.text = "وصف المتحف"
+    var museumDescription : UITextView = {
         $0.translatesAutoresizingMaskIntoConstraints = false
-    return $0
-    }(UILabel())
+        $0.textColor = .black
+        $0.backgroundColor = .clear
+        $0.textAlignment = .right
+        $0.isEditable = false
+        return $0
+    }(UITextView())
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        if museumNameSelected == 0 {
+            museumName.text = "بيت البلد"
+            museumDescription.text = "هو بيت لعائلة آل باجنيد وقد سكنته السفارة البريطانية كما سكنته مديرية الشرطة إبان مديرها عبدالمجيد شبكشي"
+        }else if museumNameSelected == 1 {
+            museumName.text = "بيت نصيف"
+            museumDescription.text = "بيت الأفندي محمد حسين نصيف وأولاده التاريخي بني عام 1281هـ وهو يقع في حارة اليمن بناه الجد الأكبر عمر نصيف وقد صممه مهندس يدعى سرسار واستمر العمل به سبع سنوات وأقام فيه الملك عبدالعزيز واتخذه سكنًا مؤقتًا له عند دخوله جدة"
+        }else if museumNameSelected == 2 {
+            museumName.text = "بيت باعشن"
+            museumDescription.text = "dddldl"
+        }else if museumNameSelected == 3 {
+            museumName.text = "بيت سليمان قابل"
+            museumDescription.text = "hhhh"
+        }
         
         view.backgroundColor = .white
         view.addSubview(nameView)
@@ -69,11 +90,11 @@ class MuseumDetailsVC: UIViewController {
             descriptionView.rightAnchor.constraint(equalTo: view.rightAnchor,constant: -30),
             
             museumDescription.topAnchor.constraint(equalTo: descriptionView.topAnchor , constant: 10),
-            museumDescription.heightAnchor.constraint(equalToConstant: 30),
+            museumDescription.heightAnchor.constraint(equalToConstant: 200),
             museumDescription.trailingAnchor.constraint(equalTo: descriptionView.trailingAnchor),
-            museumDescription.widthAnchor.constraint(equalToConstant: 100),
+            museumDescription.widthAnchor.constraint(equalToConstant: 200),
             
         ])
     }
-
+    
 }

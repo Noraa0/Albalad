@@ -7,7 +7,25 @@
 		<key>Albalad.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>31</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>880E53B92786161D00EFF6E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>880E53CF2786162900EFF6E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>880E53D92786162900EFF6E4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
