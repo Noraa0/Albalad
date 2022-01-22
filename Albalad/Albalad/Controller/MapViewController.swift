@@ -8,7 +8,16 @@
 import UIKit
 import MapKit
 
-class MapViewController: UIViewController , UISearchBarDelegate , MKMapViewDelegate {
+class MapViewController: UIViewController , MKMapViewDelegate {
+    
+    
+    var mapLable: UILabel = {
+        $0.translatesAutoresizingMaskIntoConstraints = false
+        $0.text = "خريطة البلد"
+        $0.font = UIFont(name: "GillSans-Italic", size: 25)
+        $0.textColor = .black
+        return $0
+    }(UILabel())
     
     var mapOutLit : MKMapView = {
         $0.translatesAutoresizingMaskIntoConstraints = false
@@ -26,20 +35,11 @@ class MapViewController: UIViewController , UISearchBarDelegate , MKMapViewDeleg
         return $0
     }(MKPointAnnotation())
     
-    var searchBar:UISearchBar = {
-        $0.translatesAutoresizingMaskIntoConstraints = false
-        $0.searchBarStyle = UISearchBar.Style.default
-        $0.placeholder = "Search..."
-        $0.sizeToFit()
-        $0.isTranslucent = false
-        $0.backgroundImage = UIImage()
-        return $0
-    }(UISearchBar())
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        searchBar.delegate = self
         
         setUp()
         
@@ -69,17 +69,17 @@ class MapViewController: UIViewController , UISearchBarDelegate , MKMapViewDeleg
     func setUp() {
         
         view.backgroundColor = .white
+        view.addSubview(mapLable)
         view.addSubview(mapOutLit)
-        view.addSubview(searchBar)
+    
         
         NSLayoutConstraint.activate([
             
-            searchBar.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor , constant: 20),
-            searchBar.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            searchBar.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            searchBar.bottomAnchor.constraint(equalTo: mapOutLit.topAnchor),
             
-            mapOutLit.topAnchor.constraint(equalTo: searchBar.bottomAnchor ,constant: 10),
+            mapLable.topAnchor.constraint(equalTo:view.safeAreaLayoutGuide.topAnchor ,constant: 20),
+            mapLable.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            
+            mapOutLit.topAnchor.constraint(equalTo:mapLable.bottomAnchor ,constant: 10),
             mapOutLit.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             mapOutLit.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             mapOutLit.bottomAnchor.constraint(equalTo: view.bottomAnchor)
