@@ -133,7 +133,7 @@ class ReservationVC: UIViewController {
             
         }else{
             
-            let vc = LandmarkAlbaladVC()
+            let vc = EventsAbaladCV()
             present(vc, animated: true, completion: nil)
         }
     }

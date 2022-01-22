@@ -120,7 +120,7 @@ class EventReservationVC: UIViewController {
 
             nameLable.topAnchor.constraint(equalTo: reservView.topAnchor,constant: 10),
             nameLable.trailingAnchor.constraint(equalTo: reservView.trailingAnchor),
-            nameLable.widthAnchor.constraint(equalToConstant: 100),
+            nameLable.widthAnchor.constraint(equalToConstant: 150),
             nameLable.heightAnchor.constraint(equalToConstant: 20),
 
             dateRes.topAnchor.constraint(equalTo: nameLable.topAnchor,constant: 30),
