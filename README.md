@@ -25,6 +25,8 @@ The main purpose of the application is to enable the user to book a hotel, book 
 
 -Xcode
 
+-Firebase
+
 -Apple Map
 
 -[MakeAppIcon](https://makeappicon.com)
